@@ -47,3 +47,9 @@ liste=["ahmet",1,6,8,98,4]
 liste[0:1]=["can","furkan",55,33]
 #1.parametre:sırayı, 2.parametre ise silinecek eleman sayısını gösterir
 print(liste)
+
+
+#listedeki herhangi bir elemanı silmek için o elemana ait ayırt edici özellik olan anahtar ifadesini "del" komutu ile birlikte kullanırız
+telefon={"ahmet":"0545 453 63 76","salih":"0578 879 89 07"} 
+del telefon["ahmet"] #ahmet anahtarı ve değeri varsa silinir
+print(telefon)
